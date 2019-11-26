@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 """Porter Stemming Algorithm
-This script is a version with some modifications compared to the
-script available at "https://tartarus.org/martin/PorterStemmer/python.txt"
+This is the script available at
+"https://tartarus.org/martin/PorterStemmer/python.txt"
+with some modifications.
 (accessed 11/25/2019).
 """
 
