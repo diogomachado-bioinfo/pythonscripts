@@ -4,7 +4,7 @@ Python scripts for various utilities are available here, especially: text mining
 clustering
 --------------------------------------------------------------------------------------------------------------------------------
 - getCluster.py: Returns the rows corresponding to a given cluster, considering a file with clustered indices.
-Example: python getCluster.py data.txt clusIdx.txt result.txt
+Example: python getCluster.py data.txt clusIdx.txt 2 result.txt
 
 - kmeans.py: Cluster with a specific k and return the resulting indexes.
 Example: python kmeans.py data.txt 3 result.txt
@@ -12,13 +12,13 @@ Example: python kmeans.py data.txt 3 result.txt
 ncbi
 --------------------------------------------------------------------------------------------------------------------------------
 - proteinDownload.py: Download a set of protein sequences from NCBI and generate a FASTA.
-Example: python proteinDownload.py "herbaspirillum AND nitrogen" "A.N.Other@example.com" result.txt
+Example: python proteinDownload.py "herbaspirillum AND nitrogen" "A.N.Other@example.com" result.fasta
 
 - pubmedDownload.py: Downloads an NCBI article dataset and generates a tabbed file.
 Example: python pubmedDownload.py "herbaspirillum AND nitrogen" "A.N.Other@example.com" result.txt
 
 - pubmedDownload_withMax.py: Download a set of NCBI protein sequences and generate a FASTA, considering an established result limit.
-Example: python proteinDownload.py "herbaspirillum AND nitrogen" 10 "A.N.Other@example.com" result.txt
+Example: python pubmedDownload_withMax.py "herbaspirillum AND nitrogen" 10 "A.N.Other@example.com" result.txt
 
 textMining
 --------------------------------------------------------------------------------------------------------------------------------
